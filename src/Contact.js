@@ -68,6 +68,7 @@ const Contact = () => {
             <input className="rr" type="checkbox" /> You agree to providing your data to  who may contact you.
             </div>
             </div>
+            <button className="btn1">Send message</button>
           </form>
         
       </div>
