@@ -26,7 +26,6 @@ const Section1 = () => {
       <div className="secondiv">
         <div className="header2div">
         <a id="btn__zuri" href="https://books.zuri.team/"><h4 className="header2">Zuri Team</h4></a>
-
         </div>
       </div>
       <div className="thirdiv">
@@ -36,6 +35,7 @@ const Section1 = () => {
         THIS IS WHERE YOU FIND BOOKS ABOUT DESIGN AND CODING */}
         </div>
       </div>
+
       <div className="fourthdiv">
        <div className="header4div">
       <a id="python__books" href="https://books.zuri.team/python-for-beginners?ref_id=<Naseer>"> <h4 className="header4">Python Books</h4></a>
@@ -59,7 +59,7 @@ const Section1 = () => {
 
       <div className="seventhdiv">
         <div className="header7div">
-      <Link className="link" to='/contact'> <a id="contact" href="" target='__blank'><h4 className="header7">Contact Me</h4></a></Link>
+      <Link className="link" to='/contact'> <a id="contact" hre target='__blank'><h4 className="header7">Contact Me</h4></a></Link>
         </div>
       </div>
       

@@ -35,6 +35,7 @@
 }
 .header1 {
   text-align: center;
+  width: 200px;
 }
 .header1div {
   margin: 0 auto;
@@ -308,5 +309,10 @@
   .hr {
     position: relative;
     top: 20px;
+  }
+}
+@media (max-width: 620px) {
+  .check{
+    width: 570px;
   }
 }

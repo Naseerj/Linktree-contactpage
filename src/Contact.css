@@ -1,7 +1,7 @@
 .contactpage{
     /* margin: 0 auto; */
     text-align: center;
-    padding: 40px;
+    padding: 50px;
     /* margin-right: 50px; */
 }
 .form{
@@ -22,7 +22,7 @@
     /* position: absolute; */
     /* padding: 20px; */
 }
-.firstdiv{
+.firstdiv_{
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
@@ -44,7 +44,7 @@ padding: 2px;
     border: 1px solid gray;
 
 }
-.secondiv{
+.secondiv_{
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
@@ -53,7 +53,7 @@ padding: 2px;
     text-align: center;
     /* margin-top: 10px; */
 }
-.thirdiv{
+.thirdiv_{
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
@@ -78,14 +78,29 @@ padding: 2px;
 }
 .label1{
     width: 30px;
+    color: #344054;
+    font-size: 15px;
+}
+.label2{
+    width: 30px;
+    color: #344054;
+    font-size: 15px;
+}
+.label3{
+    width: 30px;
+    color: #344054;
+    font-size: 15px;
+    /* background-color: aqua; */
+    margin-right: 30px;
 }
 .ccc{
     margin: 0 auto;
 }
-.header1{
+.header1_{
     text-align: left;
     margin: 0 auto;
-    width: 555px;
+    width: 600px;
+    /* background-color: aqua; */
 }
 .textdiv{
     margin: 0 auto;
@@ -100,7 +115,8 @@ margin: 0% auto;
 .firstp{
     text-align: left;
     width: 500px;
-    margin-left: 70px;
+    margin-left: 45px;
+    color: #475467;
 }
 .ogadiv{
     margin-bottom: 40px;
@@ -125,6 +141,10 @@ margin: 0% auto;
 }
 .txtlabel{
     text-align: left;
+    /* background-color: aqua; */
+    /* margin-right: 89900px; */
+    /* width: 800px; */
+    margin-left: -5px;
 }
 .txtlabeldiv{
     /* background-color: aqua; */
@@ -135,8 +155,11 @@ margin: 0% auto;
 textarea{
 /* position: absolute; */
 resize: none;
-width: 640px;
+width: 620px;
 border: 1px solid gray;
+border-radius: 10px;
+padding: 10px;
+height: 120px;
 }
 .rr{
     /* background-color: aqua; */
@@ -144,12 +167,13 @@ border: 1px solid gray;
 }
 .check{
     position: relative;
-    top: 0px;
+    top: 20px;
     left: -85px;
     /* width: 600px; */
     width: 600px;
     /* background-color: aqua; */
     margin: 0 auto;
+    padding: 10px;
     /* margin-right: 50px; */
 }
 
@@ -161,7 +185,7 @@ border: 1px solid gray;
 }
 .btn1{
     position: absolute;
-    top: 550px;
+    top: 570px;
     /* width: 500px; */
     /* height: 100px; */
     width: 650px;
@@ -170,4 +194,723 @@ border: 1px solid gray;
     background-color: #1570EF;
     border: none;
     border: 1px solid gray;
+    color: #FFFFFF;
 }
+
+@media (max-width : 880px) {
+    .firstp{
+    
+        margin-left: 40px;
+    }
+    .header1_{
+    
+        width: 620px;
+        /* background-color: aqua; */
+    }
+}
+@media (max-width : 864px) {
+    .firstp{
+        margin-left: 35px;
+    }
+    .header1_{
+    
+        width: 630px;
+        /* background-color: aqua; */
+    }
+}
+@media (max-width : 844px) {
+    .firstp{
+        margin-left: 20px;
+    }
+    .header1_{
+    
+        width: 650px;
+        /* background-color: aqua; */
+    }
+}
+@media (max-width : 823px) {
+    .firstp{
+        margin-left: 10px;
+    }
+    .header1_{
+    
+        width: 680px;
+        /* background-color: aqua; */
+    }
+}
+@media (max-width: 790px) {
+    /* .form{
+        width: 500px;
+    } */
+    .firstdiv_{
+        width: 200px;
+        background-color: red;
+    }
+    .secondiv_{
+        width: 200px;
+        background-color: red;
+    }
+    #first_name{
+        width: 250px;
+    }
+    #last_name{
+        width: 250px;
+    }
+    #email{
+        width: 575px;
+    }
+    textarea{
+        width: 575px;
+    }
+    .btn1{
+        width: 600px;
+    }
+    .firstp{
+        margin-left: 5px;
+    }
+    .header1_{
+        width: 500px;
+        margin-left: 0;
+        /* width: 600px; */
+        /* background-color: aqua; */
+    }
+    .ogadiv{
+        text-align: left;
+    }
+}
+
+@media (max-width: 783px) {
+        /* .form{
+            width: 500px;
+        } */
+        .firstdiv_{
+            width: 200px;
+            background-color: red;
+        }
+        .secondiv_{
+            width: 100px;
+            background-color: red;
+            margin-right: 250px;
+        }
+        #first_name{
+            width: 250px;
+        }
+        #last_name{
+            width: 250px;
+        }
+        #email{
+            width: 555px;
+        }
+        textarea{
+            width: 555px;
+        }
+        .btn1{
+            width: 570px;
+        }
+        .firstp{
+            margin-left: 5px;
+            margin-right: 0px;
+        }
+        .header1_{
+            width: 500px;
+            margin-left: 0;
+            margin-right: 0;
+            /* width: 600px; */
+            /* background-color: aqua; */
+        }
+        .ogadiv{
+            width: 300px;
+            text-align: left;
+            margin-left: 0px;
+            position: relative;
+            left: 20px;
+            /* margin-left: -0.11111px; */
+        }
+        .textt{
+            width: 400px;
+        }
+        /* .contactpage{
+            width: 800px;
+        } */
+    
+}
+@media (max-width: 755px) {
+    .form{
+        width: 500px;
+    }
+    .firstdiv_{
+        width: 200px;
+        background-color: red;
+    }
+    .secondiv_{
+        width: 100px;
+        background-color: red;
+        margin-right: 250px;
+    }
+    #first_name{
+        width: 250px;
+    }
+    #last_name{
+        width: 250px;
+    }
+    #email{
+        width: 555px;
+    }
+    textarea{
+        width: 555px;
+    }
+    .btn1{
+        width: 570px;
+    }
+    .firstp{
+        margin-left: 5px;
+        margin-right: 0px;
+    }
+    .header1_{
+        width: 500px;
+        margin-left: 0;
+        margin-right: 0;
+        /* width: 600px; */
+        /* background-color: aqua; */
+    }
+    .ogadiv{
+        width: 300px;
+        text-align: left;
+        margin-left: 0px;
+        position: relative;
+        left: 20px;
+        /* margin-left: -0.11111px; */
+    }
+    /* .contactpage{
+        width: 800px;
+    } */
+
+}
+@media (max-width: 710px) {
+    .form{
+        width: 500px;
+    }
+    .firstdiv_{
+        width: 200px;
+        background-color: red;
+    }
+    .secondiv_{
+        width: 125px;
+        background-color: red;
+        margin-right: 250px;
+    }
+    #first_name{
+        width: 220px;
+    }
+    #last_name{
+        width: 220px;
+    }
+    #email{
+        width: 500px;
+    }
+    textarea{
+        width: 500px;
+    }
+    .btn1{
+        width: 520px;
+    }
+    .firstp{
+        margin-left: -20px;
+        margin-right: 0px;
+    }
+    .header1_{
+        width: 500px;
+        margin-left: -20px;
+        margin-right: 0;
+        /* width: 600px; */
+        /* background-color: aqua; */
+    }
+    .ogadiv{
+        width: 300px;
+        text-align: left;
+        margin-left: 0px;
+        position: relative;
+        left: 20px;
+        /* margin-left: -0.11111px; */
+    }
+    .yy{
+        width: 200px;
+    }
+
+}
+@media (max-width: 660px) {
+    .form{
+        width: 500px;
+    }
+    .firstdiv_{
+        width: 200px;
+        background-color: red;
+    }
+    .secondiv_{
+        width: 170px;
+        background-color: red;
+        margin-right: 250px;
+    }
+    #first_name{
+        width: 210px;
+    }
+    #last_name{
+        width: 210px;
+    }
+    #email{
+        width: 450px;
+    }
+    textarea{
+        width: 450px;
+    }
+    .btn1{
+        width: 480px;
+    }
+    .firstp{
+        margin-left: -20px;
+        margin-right: 0px;
+    }
+    .header1_{
+        width: 500px;
+        margin-left: -20px;
+        margin-right: 0;
+        /* width: 600px; */
+        /* background-color: aqua; */
+    }
+    .ogadiv{
+        width: 300px;
+        text-align: left;
+        margin-left: 0px;
+        position: relative;
+        left: 20px;
+        /* margin-left: -0.11111px; */
+    }
+    .yy{
+        width: 200px;
+    }
+
+}
+@media (max-width: 633px) {
+    .contactpage{
+        padding: 40px;
+
+    }
+    .check{
+        width: 500px;
+        position: relative;
+        top: 5px;
+        margin: 0 auto;
+        text-align: center;
+        align-content: center;
+        margin-left: 40px;
+      }
+      .btn1{
+        width: 460px;
+      }
+}
+@media (max-width: 595px) {
+    .txtlabeldiv{
+        width: 400px;
+    }
+}
+
+@media (max-width: 587px) {
+    .form{
+        width: 400px;
+    }
+    .firstdiv_{
+        width: 200px;
+        background-color: red;
+    }
+    .secondiv_{
+        width: 180px;
+        background-color: red;
+        margin-right: 250px;
+    }
+    #first_name{
+        width: 200px;
+    }
+    #last_name{
+        width: 200px;
+    }
+    #email{
+        width: 420px;
+    }
+    textarea{
+        width: 420px;
+    }
+    .btn1{
+        width: 450px;
+    }
+    .firstp{
+        margin-left: -20px;
+        margin-right: 0px;
+        width: 400px;
+    }
+    .header1_{
+        width: 400px;
+        margin-left: -20px;
+        margin-right: 0;
+        /* width: 600px; */
+        /* background-color: aqua; */
+    }
+    .ogadiv{
+        width: 300px;
+        text-align: left;
+        margin-left: 0px;
+        position: relative;
+        left: 20px;
+        /* margin-left: -0.11111px; */
+    }
+    .yy{
+        width: 200px;
+    }
+}
+
+@media (max-width: 550px) {
+    .form{
+        width: 400px;
+    }
+    .firstdiv_{
+        width: 200px;
+        background-color: red;
+    }
+    .secondiv_{
+        width: 190px;
+        background-color: red;
+        margin-right: 250px;
+    }
+    #first_name{
+        width: 190px;
+    }
+    #last_name{
+        width: 190px;
+    }
+    #email{
+        width: 400px;
+    }
+    textarea{
+        width: 400px;
+        margin-left: 0;
+        position: relative;
+        right: 20px;
+    }
+    .btn1{
+        width: 420px;
+    }
+    .firstp{
+        margin-left: -20px;
+        margin-right: 0px;
+        width: 400px;
+    }
+    .header1_{
+        width: 400px;
+        margin-left: -20px;
+        margin-right: 0;
+        /* width: 600px; */
+        /* background-color: aqua; */
+    }
+    .ogadiv{
+        width: 300px;
+        text-align: left;
+        margin-left: 0px;
+        position: relative;
+        left: 20px;
+        /* margin-left: -0.11111px; */
+    }
+    .yy{
+        width: 200px;
+    }
+    .check{
+            width: 400px;
+            position: relative;
+            top: 5px;
+            margin: 0 auto;
+            text-align: center;
+            align-content: center;
+            margin-left: 40px;
+          }
+    }
+    @media (max-width: 525px) {
+        .txtlabeldiv{
+            width: 300px;
+            /* margin-right: -300px; */
+            /* margin-left: 500px; */
+            margin: 0;
+            /* position: relative;
+            right: 100px; */
+        }
+        /* .txtlabel{
+            width: 20px;
+        } */
+        .txtadiv{
+            width: 410px;
+        }
+        .form{
+            width: 400px;
+        }
+        .firstdiv_{
+            width: 200px;
+            background-color: red;
+        }
+        .secondiv_{
+            width: 190px;
+            background-color: red;
+            margin-right: 250px;
+        }
+        #first_name{
+            width: 180px;
+        }
+        #last_name{
+            width: 180px;
+        }
+        #email{
+            width: 380px;
+        }
+        textarea{
+            width: 380px;
+            margin-left: 0;
+            position: relative;
+            right: 20px;
+        }
+        .btn1{
+            width: 400px;
+        }
+        .firstp{
+            margin-left: -20px;
+            margin-right: 0px;
+            width: 400px;
+        }
+        .header1_{
+            width: 400px;
+            margin-left: -20px;
+            margin-right: 0;
+            /* width: 600px; */
+            /* background-color: aqua; */
+        }
+        .ogadiv{
+            width: 300px;
+            text-align: left;
+            margin-left: 0px;
+            position: relative;
+            left: 20px;
+            /* margin-left: -0.11111px; */
+        }
+        .yy{
+            width: 200px;
+        }
+        .check{
+                width: 400px;
+                position: relative;
+                top: 5px;
+                margin: 0 auto;
+                text-align: center;
+                align-content: center;
+                margin-left: 40px;
+              }
+    }
+    @media (max-width: 490px) {
+        .txtlabeldiv{
+            width: 300px;
+            /* margin-right: -300px; */
+            /* margin-left: 500px; */
+            margin: 0;
+            /* background-color: navy; */
+            /* position: relative;
+            right: 100px; */
+        }
+        /* .txtlabel{
+            width: 20px;
+        } */
+        .txtadiv{
+            width: 320px;
+            /* background-color: aquamarine; */
+        }
+        .form{
+            width: 350px;
+            /* grid-template-columns: 1fr; */
+            /* background-color: violet; */
+        }
+        .firstdiv_{
+            width: 200px;
+            background-color: red;
+            /* position: relative; */
+            /* right: 10px; */
+        }
+        .secondiv_{
+            width: 100px;
+            /* background-color: red; */
+            margin-right: 250px;
+            /* position: relative; */
+            /* right: 10px; */
+        }
+        #first_name{
+            width: 155px;
+            /* background-color: tomato; */
+        }
+        #last_name{
+            width: 155px;
+            /* background-color: olive; */
+        }
+        #email{
+            width: 340px;
+            /* background-color: #344054; */
+        }
+        textarea{
+            width: 330px;
+            margin-left: 0;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            /* margin-right: 100px; */
+            position: relative;
+            right: 10px;
+            /* background-color: red; */
+        }
+        .btn1{
+            width: 340px;
+            /* background-color: rebeccapurple; */
+        }
+        .firstp{
+            margin-left: -20px;
+            margin-right: 0px;
+            width: 300px;
+            /* background-color: gold; */
+        }
+        .header1_{
+            width: 300px;
+            margin-left: -20px;
+            margin-right: 0;
+            /* width: 600px; */
+            /* background-color: aqua; */
+            /* background-color: greenyellow; */
+        }
+        .ogadiv{
+            width: 200px;
+            text-align: left;
+            margin-left: 0px;
+            /* position: relative;
+            left: 20px; */
+            /* background-color: green; */
+            /* margin-left: -0.11111px; */
+        }
+        .yy{
+            width: 200px;
+            /* background-color: aliceblue; */
+        }
+        .textt{
+            width: 300px;
+            /* background-color: bisque; */
+        }
+        .check{
+                width: 400px;
+                /* position: relative;
+                top: 5px; */
+                margin: 0 auto;
+                text-align: center;
+                align-content: center;
+                margin-left: 40px;
+                /* background-color: aqua; */
+              }
+              .txtlabel{
+                margin-right: 0px;
+                /* position: relative;
+                right: 70px; */
+                /* background-color: #1570EF; */
+              }
+              .label1div{
+                width: 100px;
+                margin-right: 30;
+              }
+    }
+
+    @media (max-width: 455px) {
+        .firstdiv_{
+            width: 220px;
+            background-color: red;
+            /* position: relative; */
+            /* right: 10px; */
+        }
+        .secondiv_{
+            /* width: 900px; */
+            /* background-color: red; */
+            /* margin-right: 250px; */
+            position: relative;
+            right: 50px;
+        }
+        #first_name{
+            width: 150px;
+            /* background-color: tomato; */
+        }
+        #last_name{
+            width: 150px;
+            /* background-color: olive; */
+        }
+        #email{
+            width: 300px;
+        }
+        textarea{
+            /* width: 250px; */
+            max-width: 300px;
+            margin-left: -30px;
+            
+        }
+        .check{
+            width: 300px;
+            margin-left: 80px;
+        }
+        .btn1{
+            width: 300px;
+        }
+        .txtlabeldiv{
+            /* margin-right: 30px; */
+            margin-left: -30px;
+        }
+    }
+    @media (max-width: 428px) {
+        .firstdiv_{
+            width: 220px;
+            background-color: red;
+            /* position: relative; */
+            /* right: 10px; */
+        }
+        .secondiv_{
+            /* width: 900px; */
+            /* background-color: red; */
+            /* margin-right: 250px; */
+            position: relative;
+            right: 50px;
+        }
+        #first_name{
+            width: 150px;
+            /* background-color: tomato; */
+        }
+        #last_name{
+            width: 150px;
+            /* background-color: olive; */
+        }
+        #email{
+            width: 300px;
+        }
+        textarea{
+            /* width: 250px; */
+            margin-right: 200px;
+
+            
+        }
+        .check{
+            width: 300px;
+            margin-left: 80px;
+        }
+        .btn1{
+            width: 300px;
+        }
+        .txtlabeldiv{
+            /* margin-right: 30px; */
+        margin: 0;
+        width: 100px;
+        }
+        .label1div{
+            margin: 0px;
+        }
+    }

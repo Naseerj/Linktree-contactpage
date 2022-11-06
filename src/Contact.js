@@ -1,5 +1,7 @@
 import React from "react";
 import "./Contact.css";
+import Footer from './Footer'
+
 
 const Contact = () => {
   return (
@@ -8,11 +10,11 @@ const Contact = () => {
           <div className="textdiv">
             <div className="ogadiv">
               <div className="textt">
-                <h1 className="header1">Contact Me</h1>
+                <h1 className="header1_">Contact Me</h1>
               </div>
               <div className="textt">
                 <p className="firstp">
-                  {" "}
+                  
                   Hi there, contact me to ask me about anything you have in
                   mind.
                 </p>
@@ -20,7 +22,7 @@ const Contact = () => {
             </div>
           </div>
           <form className="form" action="">
-            <div className="firstdiv">
+            <div className="firstdiv_">
               <div className="label1div">
                 <label className="label1" htmlFor="">
                   First name
@@ -32,9 +34,9 @@ const Contact = () => {
                 placeholder="Enter your first name"
               />
             </div>
-            <div className="secondiv">
+            <div className="secondiv_">
               <div className="label2div">
-                <label htmlFor="">Last name</label>
+                <label className="label2" htmlFor="">Last name</label>
               </div>
               <input
                 id="last_name"
@@ -43,9 +45,9 @@ const Contact = () => {
               />
             </div>
             <div>
-              <div className="thirdiv">
+              <div className="thirdiv_">
                 <div className="label2div">
-                  <label htmlFor="">Email</label>
+                  <label className="label3" htmlFor="">Email</label>
                 </div>
                 <input
                   id="email"
@@ -60,7 +62,7 @@ const Contact = () => {
                   Message
                 </label>
               </div>
-              <textarea name="" id="" cols="60" rows="10" ></textarea>
+              <textarea name="" id="" cols="60" rows="10"  placeholder="Send me a message and I'll reply you as soon as possible..."></textarea>
             </div>
 
             <div className="yy">
@@ -70,7 +72,7 @@ const Contact = () => {
             </div>
             <button className="btn1">Send message</button>
           </form>
-        
+         < Footer />
       </div>
     </div>
   );
