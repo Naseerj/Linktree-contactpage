@@ -1,916 +1,425 @@
-.contactpage{
-    /* margin: 0 auto; */
-    text-align: center;
-    padding: 50px;
-    /* margin-right: 50px; */
-}
-.form{
-    display: grid;
-    grid-template-columns: 1fr 1fr  ;
-    grid-template-rows: 1fr  1fr 1fr ;
-    /* column-gap: 10px;
-    row-gap: 10px; */
-    /* display: flex;
-    justify-content: space-between; */
-    margin: 0 auto;
-    /* margin-left: 198px; */
-    /* margin-right: 150px; */
-    /* text-align: center; */
-    /* background-color: red; */
-    width: 600px;
-    height: 320px;
-    /* position: absolute; */
-    /* padding: 20px; */
-}
-.firstdiv_{
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0 auto;
-    width: 200px;
-    height: 0px;
-    text-align: center;
-}
-.label1div{
-/* background-color: aqua; */
-width: 100px;
-margin-right: 300px;
-margin-left: -20px;
-padding: 2px;
-}
-#first_name{
-    width: 300px;
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid gray;
-
-}
-.secondiv_{
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0 auto;
-    width: 200px;
-    height: 0px;
-    text-align: center;
-    /* margin-top: 10px; */
-}
-.thirdiv_{
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0 auto;
-    width: 200px;
-    height: 0px;
-    text-align: center;
-    margin-top: 10px;
-}
-.label2div{
-/* background-color: aqua; */
-width: 100px;
-
-margin-left: -20px;
-
-padding: 2px;
-}
-#last_name{
-    width: 300px;
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid gray;
-}
-.label1{
-    width: 30px;
-    color: #344054;
-    font-size: 15px;
-}
-.label2{
-    width: 30px;
-    color: #344054;
-    font-size: 15px;
-}
-.label3{
-    width: 30px;
-    color: #344054;
-    font-size: 15px;
-    /* background-color: aqua; */
-    margin-right: 30px;
-}
-.ccc{
-    margin: 0 auto;
-}
-.header1_{
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .Contact_Contact {
+    padding: 18px;
+  }
+  .line {
+    width: 100%;
+    opacity: 0.2;
+  }
+  .foot {
     text-align: left;
-    margin: 0 auto;
-    width: 600px;
-    /* background-color: aqua; */
-}
-.textdiv{
-    margin: 0 auto;
-    text-align: center;
-}
-.textt{
-/* background-color: brown; */
-width: 690px;
-margin: 0% auto;
-/* margin-bottom: 20px; */
-}
-.firstp{
-    text-align: left;
-    width: 500px;
-    margin-left: 45px;
+  }
+  .zuri {
+    padding-top: 37.24px;
+  }
+  .internn {
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #667085;
+    padding-top: 13px;
+    padding-bottom: 15px;
+  }
+  .contactMe {
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02;
+    color: #101828;
+    padding-top: 40px;
+    letter-spacing: -0.02rem;
+    padding-bottom: 10px;
+  }
+  .contactPa {
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
     color: #475467;
-}
-.ogadiv{
-    margin-bottom: 40px;
-    margin: 0 auto;
-    text-align: center;
-}
-#email{
-    width: 625px;
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid gray;
-}
-.txtadiv{
-
-    /* background-color: aquamarine; */
-    margin: 0 auto;
-    /* padding: 10px; */
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .llabel1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .llabel2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #first_name {
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid orangered;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 0 14px;
+    margin-bottom: 22px;
+    font-size: 16px;
+    color: #667085;
+  }
+  .first_name-NX {
+    height: 44px;
+    border: 1px solid #d0d5dd;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 0 14px;
+    margin-bottom: 22px;
+    font-size: 16px;
+    color: #667085;
+  }
+  
+  #last_name {
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #d0d5dd;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 0 14px;
+    margin-bottom: 22px;
+    font-size: 16px;
+    color: #667085;
+  }
+  #email {
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #d0d5dd;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 0 14px;
+    margin-bottom: 22px;
+    font-size: 16px;
+    color: #667085;
+  }
+  label {
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344054;
+    padding-bottom: 6px;
+    display: flex;
+  }
+  /* .llabel{
+      display: flex;
+  } */
+  .mess {
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344054;
+    padding-bottom: 6px;
+  }
+  #message {
+    height: 132px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+    margin-bottom: 24px;
+    color: #667085;
+    background: #ffffff;
+    border: 1px solid #d0d5dd;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+  }
+  .check {
+    display: flex;
+    padding-bottom: 32px;
+  }
+  [type="checkbox"] {
+    opacity: 0;
+  }
+  [type="checkbox"] {
     position: relative;
-    top: 70px;
-    right: 200px;
-    width: 450px;
-}
-.txtlabel{
-    text-align: left;
-    /* background-color: aqua; */
-    /* margin-right: 89900px; */
-    /* width: 800px; */
-    margin-left: -5px;
-}
-.txtlabeldiv{
-    /* background-color: aqua; */
-    width: 500px;
-    text-align: left;
-    padding: 5px;
-}
-textarea{
-/* position: absolute; */
-resize: none;
-width: 620px;
-border: 1px solid gray;
-border-radius: 10px;
-padding: 10px;
-height: 120px;
-}
-.rr{
-    /* background-color: aqua; */
+    padding-left: 22px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #475467;
+    width: 80%;
+  }
+  [type="checkbox"] + label::before {
+    content: "";
+    position: absolute;
+    left: -9px;
+    top: 2px;
     width: 20px;
-}
-.check{
-    position: relative;
-    top: 20px;
-    left: -85px;
-    /* width: 600px; */
-    width: 600px;
-    /* background-color: aqua; */
-    margin: 0 auto;
-    padding: 10px;
-    /* margin-right: 50px; */
-}
-
-.yy{
-    /* background-color: red; */
-    width: 600px;
-    position: absolute;
-    top: 500px;
-}
-.btn1{
-    position: absolute;
-    top: 570px;
-    /* width: 500px; */
-    /* height: 100px; */
-    width: 650px;
-    height: 30px;
-    border-radius: 5px;
-    background-color: #1570EF;
-    border: none;
-    border: 1px solid gray;
-    color: #FFFFFF;
-}
-
-@media (max-width : 880px) {
-    .firstp{
-    
-        margin-left: 40px;
-    }
-    .header1_{
-    
-        width: 620px;
-        /* background-color: aqua; */
-    }
-}
-@media (max-width : 864px) {
-    .firstp{
-        margin-left: 35px;
-    }
-    .header1_{
-    
-        width: 630px;
-        /* background-color: aqua; */
-    }
-}
-@media (max-width : 844px) {
-    .firstp{
-        margin-left: 20px;
-    }
-    .header1_{
-    
-        width: 650px;
-        /* background-color: aqua; */
-    }
-}
-@media (max-width : 823px) {
-    .firstp{
-        margin-left: 10px;
-    }
-    .header1_{
-    
-        width: 680px;
-        /* background-color: aqua; */
-    }
-}
-@media (max-width: 790px) {
-    /* .form{
-        width: 500px;
-    } */
-    .firstdiv_{
-        width: 200px;
-        background-color: red;
-    }
-    .secondiv_{
-        width: 200px;
-        background-color: red;
-    }
-    #first_name{
-        width: 250px;
-    }
-    #last_name{
-        width: 250px;
-    }
-    #email{
-        width: 575px;
-    }
-    textarea{
-        width: 575px;
-    }
-    .btn1{
-        width: 600px;
-    }
-    .firstp{
-        margin-left: 5px;
-    }
-    .header1_{
-        width: 500px;
-        margin-left: 0;
-        /* width: 600px; */
-        /* background-color: aqua; */
-    }
-    .ogadiv{
-        text-align: left;
-    }
-}
-
-@media (max-width: 783px) {
-        /* .form{
-            width: 500px;
-        } */
-        .firstdiv_{
-            width: 200px;
-            background-color: red;
-        }
-        .secondiv_{
-            width: 100px;
-            background-color: red;
-            margin-right: 250px;
-        }
-        #first_name{
-            width: 250px;
-        }
-        #last_name{
-            width: 250px;
-        }
-        #email{
-            width: 555px;
-        }
-        textarea{
-            width: 555px;
-        }
-        .btn1{
-            width: 570px;
-        }
-        .firstp{
-            margin-left: 5px;
-            margin-right: 0px;
-        }
-        .header1_{
-            width: 500px;
-            margin-left: 0;
-            margin-right: 0;
-            /* width: 600px; */
-            /* background-color: aqua; */
-        }
-        .ogadiv{
-            width: 300px;
-            text-align: left;
-            margin-left: 0px;
-            position: relative;
-            left: 20px;
-            /* margin-left: -0.11111px; */
-        }
-        .textt{
-            width: 400px;
-        }
-        /* .contactpage{
-            width: 800px;
-        } */
-    
-}
-@media (max-width: 755px) {
-    .form{
-        width: 500px;
-    }
-    .firstdiv_{
-        width: 200px;
-        background-color: red;
-    }
-    .secondiv_{
-        width: 100px;
-        background-color: red;
-        margin-right: 250px;
-    }
-    #first_name{
-        width: 250px;
-    }
-    #last_name{
-        width: 250px;
-    }
-    #email{
-        width: 555px;
-    }
-    textarea{
-        width: 555px;
-    }
-    .btn1{
-        width: 570px;
-    }
-    .firstp{
-        margin-left: 5px;
-        margin-right: 0px;
-    }
-    .header1_{
-        width: 500px;
-        margin-left: 0;
-        margin-right: 0;
-        /* width: 600px; */
-        /* background-color: aqua; */
-    }
-    .ogadiv{
-        width: 300px;
-        text-align: left;
-        margin-left: 0px;
-        position: relative;
-        left: 20px;
-        /* margin-left: -0.11111px; */
-    }
-    /* .contactpage{
-        width: 800px;
-    } */
-
-}
-@media (max-width: 710px) {
-    .form{
-        width: 500px;
-    }
-    .firstdiv_{
-        width: 200px;
-        background-color: red;
-    }
-    .secondiv_{
-        width: 125px;
-        background-color: red;
-        margin-right: 250px;
-    }
-    #first_name{
-        width: 220px;
-    }
-    #last_name{
-        width: 220px;
-    }
-    #email{
-        width: 500px;
-    }
-    textarea{
-        width: 500px;
-    }
-    .btn1{
-        width: 520px;
-    }
-    .firstp{
-        margin-left: -20px;
-        margin-right: 0px;
-    }
-    .header1_{
-        width: 500px;
-        margin-left: -20px;
-        margin-right: 0;
-        /* width: 600px; */
-        /* background-color: aqua; */
-    }
-    .ogadiv{
-        width: 300px;
-        text-align: left;
-        margin-left: 0px;
-        position: relative;
-        left: 20px;
-        /* margin-left: -0.11111px; */
-    }
-    .yy{
-        width: 200px;
-    }
-
-}
-@media (max-width: 660px) {
-    .form{
-        width: 500px;
-    }
-    .firstdiv_{
-        width: 200px;
-        background-color: red;
-    }
-    .secondiv_{
-        width: 170px;
-        background-color: red;
-        margin-right: 250px;
-    }
-    #first_name{
-        width: 210px;
-    }
-    #last_name{
-        width: 210px;
-    }
-    #email{
-        width: 450px;
-    }
-    textarea{
-        width: 450px;
-    }
-    .btn1{
-        width: 480px;
-    }
-    .firstp{
-        margin-left: -20px;
-        margin-right: 0px;
-    }
-    .header1_{
-        width: 500px;
-        margin-left: -20px;
-        margin-right: 0;
-        /* width: 600px; */
-        /* background-color: aqua; */
-    }
-    .ogadiv{
-        width: 300px;
-        text-align: left;
-        margin-left: 0px;
-        position: relative;
-        left: 20px;
-        /* margin-left: -0.11111px; */
-    }
-    .yy{
-        width: 200px;
-    }
-
-}
-@media (max-width: 633px) {
-    .contactpage{
-        padding: 40px;
-
-    }
-    .check{
-        width: 500px;
-        position: relative;
-        top: 5px;
-        margin: 0 auto;
-        text-align: center;
-        align-content: center;
-        margin-left: 40px;
+    height: 20px;
+    outline: 1px solid grey;
+    /* background-color: white; */
+  }
+  [type="checkbox"]:checked + label::before{
+      content: "";
+      position: absolute;
+      left: -9px;
+      top: 2px;
+      width: 20px;
+      outline: 1px solid #84CAFF;
+      /* background-color: white; */
+      box-shadow: 0px 0px 0px 4px #D1E9FF;
+  }
+  [type="checkbox"]:checked + label::after{
+      content: "";
+      position: absolute;
+      left: -9px;
+      top: 2px;
+      width: 14px;
+      height: 15px;
+      background-image: url();
+      background-repeat: no-repeat;
+      opacity: 1;
+      transform: scale(1);
+      transition: all .3s ease;
+  
+  }
+  [type="checkbox"]:not(:checked) + label::after{
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 20px;
+      height: 20px;
+      background-size: contain;
+      transform: scale(0);
+      opacity: 0;
+      background-repeat: no-repeat;
+  }
+  .check > input {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+  }
+  .check > p {
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #475467;
+    width: 30ch;
+  }
+  #submit_btn {
+    width: 100%;
+    height: 48px;
+    background: #1570ef;
+    border: 1px solid #1570ef;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 85px;
+    transition: 0.2s;
+  }
+  #submit_btn:hover {
+    background: #0059d6;
+  }
+  
+  .lab {
+      color: #f83f23;
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 15px;
+      line-height: 20px;
+  }
+  @media (min-width: 540px) {
+      .Contact_Contacts {
+          padding: 0 9%;
       }
-      .btn1{
-        width: 460px;
+  }
+  @media (min-width: 768px) {
+      .Contact_Contacts {
+          padding: 0 15%;
       }
-}
-@media (max-width: 595px) {
-    .txtlabeldiv{
-        width: 400px;
+  }
+  .llabel {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+  }
+  .llabel1 {
+      width: 100%;
+  }
+  .check > label {
+      width: 90%;
+  }
+  .internn {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #667085;
+  }
+  @media (min-width: 768px) {
+    .Contact_Contacts {
+      padding: 0 15%;
     }
-}
+    .llabel1 {
+      width: 100%;
+    }
+    .check > p {
+      width: 100%;
+    }
+    .foot {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 4%;
+      margin: 0 auto;
+      padding-top: 36px;
+      padding-bottom: 52px;
+    }
+    .internn {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #667085;
+    }
+    .zuri {
+      padding: 0;
+      width: 185.03px;
+    }
+    .ingresss {
+      padding: 0;
+      width: 132.13px;
+    }
+    .line {
+      width: 92%;
+      margin: 0 auto;
+    }
+  }
+  @media (min-width: 1024px) {
+    .Contact_Contacts {
+      padding: 0 20%;
+    }
+  }
+  @media (min-width: 1200px) {
+    .Contact_Contacts {
+      padding: 0 25%;
+    }
+  }
 
-@media (max-width: 587px) {
-    .form{
-        width: 400px;
-    }
-    .firstdiv_{
-        width: 200px;
-        background-color: red;
-    }
-    .secondiv_{
-        width: 180px;
-        background-color: red;
-        margin-right: 250px;
-    }
-    #first_name{
-        width: 200px;
-    }
-    #last_name{
-        width: 200px;
-    }
-    #email{
-        width: 420px;
-    }
-    textarea{
-        width: 420px;
-    }
-    .btn1{
-        width: 450px;
-    }
-    .firstp{
-        margin-left: -20px;
-        margin-right: 0px;
-        width: 400px;
-    }
-    .header1_{
-        width: 400px;
-        margin-left: -20px;
-        margin-right: 0;
-        /* width: 600px; */
-        /* background-color: aqua; */
-    }
-    .ogadiv{
-        width: 300px;
-        text-align: left;
-        margin-left: 0px;
-        position: relative;
-        left: 20px;
-        /* margin-left: -0.11111px; */
-    }
-    .yy{
-        width: 200px;
-    }
-}
 
-@media (max-width: 550px) {
-    .form{
-        width: 400px;
-    }
-    .firstdiv_{
-        width: 200px;
-        background-color: red;
-    }
-    .secondiv_{
-        width: 190px;
-        background-color: red;
-        margin-right: 250px;
-    }
-    #first_name{
-        width: 190px;
-    }
-    #last_name{
-        width: 190px;
-    }
-    #email{
-        width: 400px;
-    }
-    textarea{
-        width: 400px;
-        margin-left: 0;
-        position: relative;
-        right: 20px;
-    }
-    .btn1{
-        width: 420px;
-    }
-    .firstp{
-        margin-left: -20px;
-        margin-right: 0px;
-        width: 400px;
-    }
-    .header1_{
-        width: 400px;
-        margin-left: -20px;
-        margin-right: 0;
-        /* width: 600px; */
-        /* background-color: aqua; */
-    }
-    .ogadiv{
-        width: 300px;
-        text-align: left;
-        margin-left: 0px;
-        position: relative;
-        left: 20px;
-        /* margin-left: -0.11111px; */
-    }
-    .yy{
-        width: 200px;
-    }
-    .check{
-            width: 400px;
-            position: relative;
-            top: 5px;
-            margin: 0 auto;
-            text-align: center;
-            align-content: center;
-            margin-left: 40px;
-          }
-    }
-    @media (max-width: 525px) {
-        .txtlabeldiv{
-            width: 300px;
-            /* margin-right: -300px; */
-            /* margin-left: 500px; */
-            margin: 0;
-            /* position: relative;
-            right: 100px; */
-        }
-        /* .txtlabel{
-            width: 20px;
-        } */
-        .txtadiv{
-            width: 410px;
-        }
-        .form{
-            width: 400px;
-        }
-        .firstdiv_{
-            width: 200px;
-            background-color: red;
-        }
-        .secondiv_{
-            width: 190px;
-            background-color: red;
-            margin-right: 250px;
-        }
-        #first_name{
-            width: 180px;
-        }
-        #last_name{
-            width: 180px;
-        }
-        #email{
-            width: 380px;
-        }
-        textarea{
-            width: 380px;
-            margin-left: 0;
-            position: relative;
-            right: 20px;
-        }
-        .btn1{
-            width: 400px;
-        }
-        .firstp{
-            margin-left: -20px;
-            margin-right: 0px;
-            width: 400px;
-        }
-        .header1_{
-            width: 400px;
-            margin-left: -20px;
-            margin-right: 0;
-            /* width: 600px; */
-            /* background-color: aqua; */
-        }
-        .ogadiv{
-            width: 300px;
-            text-align: left;
-            margin-left: 0px;
-            position: relative;
-            left: 20px;
-            /* margin-left: -0.11111px; */
-        }
-        .yy{
-            width: 200px;
-        }
-        .check{
-                width: 400px;
-                position: relative;
-                top: 5px;
-                margin: 0 auto;
-                text-align: center;
-                align-content: center;
-                margin-left: 40px;
-              }
-    }
-    @media (max-width: 490px) {
-        .txtlabeldiv{
-            width: 300px;
-            /* margin-right: -300px; */
-            /* margin-left: 500px; */
-            margin: 0;
-            /* background-color: navy; */
-            /* position: relative;
-            right: 100px; */
-        }
-        /* .txtlabel{
-            width: 20px;
-        } */
-        .txtadiv{
-            width: 320px;
-            /* background-color: aquamarine; */
-        }
-        .form{
-            width: 350px;
-            /* grid-template-columns: 1fr; */
-            /* background-color: violet; */
-        }
-        .firstdiv_{
-            width: 200px;
-            background-color: red;
-            /* position: relative; */
-            /* right: 10px; */
-        }
-        .secondiv_{
-            width: 100px;
-            /* background-color: red; */
-            margin-right: 250px;
-            /* position: relative; */
-            /* right: 10px; */
-        }
-        #first_name{
-            width: 155px;
-            /* background-color: tomato; */
-        }
-        #last_name{
-            width: 155px;
-            /* background-color: olive; */
-        }
-        #email{
-            width: 340px;
-            /* background-color: #344054; */
-        }
-        textarea{
-            width: 330px;
-            margin-left: 0;
-            margin: 0 auto;
-            display: flex;
-            justify-content: center;
-            /* margin-right: 100px; */
-            position: relative;
-            right: 10px;
-            /* background-color: red; */
-        }
-        .btn1{
-            width: 340px;
-            /* background-color: rebeccapurple; */
-        }
-        .firstp{
-            margin-left: -20px;
-            margin-right: 0px;
-            width: 300px;
-            /* background-color: gold; */
-        }
-        .header1_{
-            width: 300px;
-            margin-left: -20px;
-            margin-right: 0;
-            /* width: 600px; */
-            /* background-color: aqua; */
-            /* background-color: greenyellow; */
-        }
-        .ogadiv{
-            width: 200px;
-            text-align: left;
-            margin-left: 0px;
-            /* position: relative;
-            left: 20px; */
-            /* background-color: green; */
-            /* margin-left: -0.11111px; */
-        }
-        .yy{
-            width: 200px;
-            /* background-color: aliceblue; */
-        }
-        .textt{
-            width: 300px;
-            /* background-color: bisque; */
-        }
-        .check{
-                width: 400px;
-                /* position: relative;
-                top: 5px; */
-                margin: 0 auto;
-                text-align: center;
-                align-content: center;
-                margin-left: 40px;
-                /* background-color: aqua; */
-              }
-              .txtlabel{
-                margin-right: 0px;
-                /* position: relative;
-                right: 70px; */
-                /* background-color: #1570EF; */
-              }
-              .label1div{
-                width: 100px;
-                margin-right: 30;
-              }
-    }
 
-    @media (max-width: 455px) {
-        .firstdiv_{
-            width: 220px;
-            background-color: red;
-            /* position: relative; */
-            /* right: 10px; */
-        }
-        .secondiv_{
-            /* width: 900px; */
-            /* background-color: red; */
-            /* margin-right: 250px; */
-            position: relative;
-            right: 50px;
-        }
-        #first_name{
-            width: 150px;
-            /* background-color: tomato; */
-        }
-        #last_name{
-            width: 150px;
-            /* background-color: olive; */
-        }
-        #email{
-            width: 300px;
-        }
-        textarea{
-            /* width: 250px; */
-            max-width: 300px;
-            margin-left: -30px;
-            
-        }
-        .check{
-            width: 300px;
-            margin-left: 80px;
-        }
-        .btn1{
-            width: 300px;
-        }
-        .txtlabeldiv{
-            /* margin-right: 30px; */
-            margin-left: -30px;
-        }
-    }
-    @media (max-width: 428px) {
-        .firstdiv_{
-            width: 220px;
-            background-color: red;
-            /* position: relative; */
-            /* right: 10px; */
-        }
-        .secondiv_{
-            /* width: 900px; */
-            /* background-color: red; */
-            /* margin-right: 250px; */
-            position: relative;
-            right: 50px;
-        }
-        #first_name{
-            width: 150px;
-            /* background-color: tomato; */
-        }
-        #last_name{
-            width: 150px;
-            /* background-color: olive; */
-        }
-        #email{
-            width: 300px;
-        }
-        textarea{
-            /* width: 250px; */
-            margin-right: 200px;
 
-            
-        }
-        .check{
-            width: 300px;
-            margin-left: 80px;
-        }
-        .btn1{
-            width: 300px;
-        }
-        .txtlabeldiv{
-            /* margin-right: 30px; */
-        margin: 0;
-        width: 100px;
-        }
-        .label1div{
-            margin: 0px;
-        }
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
