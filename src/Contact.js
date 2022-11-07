@@ -1,11 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
-import zuri from './Img/Zuri.Internship_Logo.png';
-import ingress from "./Img/I4G (1).png";
-import { useState } from "react";
+import zuridesk from "./Img/Zuri.Internship_Logo.png";
+import ingressdesk from "./Img/I4G (1).png";
 
 const Contact = () => {
-  const name = "wale";
+  const name = "Timilehin";
   const [emaiil, setEmaiil] = useState("");
   const [message, setMessage] = useState("");
   const [first, setFirst] = useState("");
@@ -28,23 +27,23 @@ const Contact = () => {
         <form onSubmit={handleSubmit}>
           <div className="llabel">
             <div className="llabel1">
-              <label htmlFor="first_name">First Name</label>
+              <label htmlFor="first_name">First name</label>
               <input
                 type="text"
                 placeholder="Enter your first name"
                 className={
-                  error && first == "" ? "first_name" : "first_name-NX"
+                  error && first == "" ? "first_namee" : "first_namee-NX"
                 }
                 onChange={(e) => setFirst(e.target.value)}
                 id="first_name"
               />
             </div>
             <div className="llabel1">
-              <label htmlFor="last_name">Last Name</label>
+              <label htmlFor="last_name">Last name</label>
               <input
                 type="text"
                 placeholder="Enter your last name"
-                className={error && last == "" ? "last_name" : "last_name-NX"}
+                className={error && last == "" ? "last_namee" : "last_namee-NX"}
                 onChange={(e) => setLast(e.target.value)}
                 id="last_name"
               />
@@ -58,16 +57,21 @@ const Contact = () => {
               id="email"
               onChange={(e) => setEmaiil(e.target.value)}
             />
+            {error && emaiil == "" ? (
+              <label className="lab">please enter your email address</label>
+            ) : (
+              ""
+            )}
           </div>
           <div className="llabel3">
-            <h2 className="mess">Message</h2>
+            <label htmlFor="message" className="mess">Message</label>
             <textarea
               name=""
               id="message"
               cols="40"
               rows="10"
               onChange={(e) => setMessage(e.target.value)}
-              placeholder="send me a message and i'll reply as soon as possible..."
+              placeholder="Send me a message and I'll reply you as soon as possible..."
             ></textarea>
             {error && message == "" ? (
               <label className="lab">please enter a message</label>
@@ -76,25 +80,124 @@ const Contact = () => {
             )}
           </div>
           <div className="check">
-            <input type="checkbox" id="checkbox" />
-            <p>
-              You agree to providing your data to {name} who may contact you.
-            </p>
+            <input type="checkbox" id="checkbox"/>
+            <label htmlFor="checkbox">
+              You agree to providing your data to Naseer who may contact you.
+            </label>
           </div>
-          <button id="submit_btn">Send Message</button>
+          <button id="btn__submit">Send message</button>
         </form>
       </div>
-      <hr className="line" />
-      <footer className="foot">
-        <img src={zuri} alt="" className="zurri" />
-        <h2 className="internn"> HNG Internship 9 Frontend Task</h2>
-        <img src={ingress} alt="" className="ingresss" />
+
+      <hr className="linee" />
+      <footer className="footerr">
+        <img src={zuridesk} alt="" className="zuriii" />
+        <h2 className="internn">HNG Internship 9 Frontend Task</h2>
+        <img src={ingressdesk} alt="" className="ingresss" />
       </footer>
     </div>
   );
 };
 
 export default Contact;
+
+// import React from "react";
+// import "./Contact.css";
+// import zuri from './Img/Zuri.Internship_Logo.png';
+// import ingress from "./Img/I4G (1).png";
+// import { useState } from "react";
+
+// const Contact = () => {
+//   const name = "wale";
+//   const [emaiil, setEmaiil] = useState("");
+//   const [message, setMessage] = useState("");
+//   const [first, setFirst] = useState("");
+//   const [last, setLast] = useState("");
+//   const [error, setError] = useState(false);
+
+//   function handleSubmit(e) {
+//     e.preventDefault();
+//     if (message == "" || emaiil == "" || first == "" || last == "") {
+//       setError(true);
+//     }
+//   }
+//   return (
+//     <div className="Contact_Contact">
+//       <div className="Contact_Contacts">
+//         <h1 className="contactMe">Contact Me</h1>
+//         <p className="contactPa">
+//           Hi there, contact me to ask me about anything you have in mind.
+//         </p>
+//         <form onSubmit={handleSubmit}>
+//           <div className="llabel">
+//             <div className="llabel1">
+//               <label htmlFor="first_name">First Name</label>
+//               <input
+//                 type="text"
+//                 placeholder="Enter your first name"
+//                 className={
+//                   error && first == "" ? "first_name" : "first_name-NX"
+//                 }
+//                 onChange={(e) => setFirst(e.target.value)}
+//                 id="first_name"
+//               />
+//             </div>
+//             <div className="llabel1">
+//               <label htmlFor="last_name">Last Name</label>
+//               <input
+//                 type="text"
+//                 placeholder="Enter your last name"
+//                 className={error && last == "" ? "last_name" : "last_name-NX"}
+//                 onChange={(e) => setLast(e.target.value)}
+//                 id="last_name"
+//               />
+//             </div>
+//           </div>
+//           <div className="llabel2">
+//             <label htmlFor="email">Email</label>
+//             <input
+//               type="text"
+//               placeholder="yourname@email.com"
+//               id="email"
+//               onChange={(e) => setEmaiil(e.target.value)}
+//             />
+//           </div>
+//           <div className="llabel3">
+//             <h2 className="mess">Message</h2>
+//             <textarea
+//               name=""
+//               id="message"
+//               cols="40"
+//               rows="10"
+//               onChange={(e) => setMessage(e.target.value)}
+//               placeholder="send me a message and i'll reply as soon as possible..."
+//             ></textarea>
+//             {error && message == "" ? (
+//               <label className="lab">please enter a message</label>
+//             ) : (
+//               ""
+//             )}
+//           </div>
+//           <div className="check">
+//             <input type="checkbox" id="checkbox" />
+//             <p>
+//               You agree to providing your data to {name} who may contact you.
+//             </p>
+//           </div>
+//           <button id="submit_btn">Send Message</button>
+//         </form>
+//       </div>
+//       <hr className="line" />
+//       <footer className="foot">
+//         <img src={zuri} alt="" className="zurri" />
+//         <h2 className="internn"> HNG Internship 9 Frontend Task</h2>
+//         <img src={ingress} alt="" className="ingresss" />
+//       </footer>
+//     </div>
+//   );
+// };
+
+// export default Contact;
 
 
 
