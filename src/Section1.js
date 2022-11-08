@@ -59,7 +59,7 @@ const Section1 = () => {
 
       <div className="seventhdiv">
         <div className="header7div">
-      <Link className="link" to='/contact'> <a id="contact" hre target='__blank'><h4 className="header7">Contact Me</h4></a></Link>
+       <a id="contact" href="/contact" target='__blank'><h4 className="header7">Contact Me</h4></a>
         </div>
       </div>
       
